@@ -1,0 +1,120 @@
+body {
+    background-color: #1F2937;
+font-family: 'Karla', sans-serif;
+ font-family: 'Inter', sans-serif;
+ color: white; 
+ height: 550px;
+ width: 550px; 
+ margin: 115px auto auto auto;
+}
+
+
+/* TITLE section*/
+
+#title-sect{
+    
+
+}
+
+h1{
+    line-height: 10px;
+    font-size: 40px; 
+}
+#green{
+   color: #4ADF86; 
+}
+
+#sentence{
+    font-size: 20px;
+}
+
+/* BUTTON SECTION*/
+#button-sect{
+    border-bottom: 1px solid #2F3E53;
+    width: 450px; 
+    display: flex; 
+    align-content: ;
+    justify-content: ; 
+}
+
+#generate-el {
+    background-color: #10B981; 
+    border-radius: 6px;
+    border: 0px solid #10B981;
+    width: 191px; 
+    height: 42px; 
+    color: white; 
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-top: 51px;
+    margin-bottom: 35px;  
+     margin-right: 24px; 
+}
+
+
+/*PW SECTION*/
+
+#pw-sect{
+    display: flex; 
+    
+}
+
+#pw{
+    background-color: #2F3E53;
+    width: 188px;
+    height: 35px; 
+    margin-top: 35px; 
+    border-radius: 6px;
+    color: #55F991;
+    text-align: center;  
+    margin-right: 24px; 
+    padding: 4px 12px 4px 14px; 
+}
+/*OPTIONS SECTION*/
+#form-el{
+    
+    background-color: #2F3E53;
+    margin-top: 10px;
+    width: 440px; 
+    border-radius: 6px;
+    padding-left: 5px; 
+    padding-right: 5px; 
+ text-align: center; 
+ justify-content: space-between;
+ align-items: center; 
+ 
+}
+
+legend{
+    
+}
+label{
+    font-size: .9rem;
+    line-height: 1px; 
+  
+}
+#length-el, #uppercase, #numbers, #symbols{
+    margin-right:.4rem;
+    
+  
+}
+#length-el{
+      background-color: #2F3E53;
+    width: 36px;
+    height: 25px; 
+    margin-top: 51px; 
+    border-radius: 6px;
+    color: #55F991;
+    text-align: center;  
+   margin-left: 2px;
+   padding: 2px; 
+    
+}
+#input-div{
+   
+ 
+    
+}
+  input[type=checkbox] {
+          accent-color: #10B981 ;
+        }
