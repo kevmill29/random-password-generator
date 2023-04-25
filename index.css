@@ -107,6 +107,8 @@ transition: 3s;
     text-align: center;  
     padding: 2em 0.1em; 
     cursor: pointer;
+    height: auto;
+    overflow-wrap:break-word;
 }
 /*OPTIONS SECTION*/
 .form-el{
