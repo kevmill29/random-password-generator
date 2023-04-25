@@ -10,41 +10,39 @@
         <div class="container">
             
             <div id="title-sect">
-                <h1>Generate a</h1>
-                <h1 id="green">Random Password</h1>
-                    <p ="sentence">Never use an insecure password again.</p>
+                <h1>Generate a<br>
+                <span id="green">Random Password</span></h1>
+                    <p class="sentence">Never use an insecure password again.</p>
             </div>
             
-            <div id="button-sect">
-                <button id="generate-el" onclick="genPassword()">Generate Password</button>
+            <div class="button-sect" id="button-sect">
+                <button class="generate-el" id="generate-el" onclick="genPassword()">Generate Password</button>
+                <button class="resetBtn" id ="resetBtn">Reset Password</button>
             </div>
           
-            <div class="popup" id="pw-sect">
-                <div id="pw">
-                    <p id="password" onclick="copyElementText(this.id)"></p>
+            <div class="popup pw-sect" id="pw-sect">
+                <div class="pw" id="pw">
+                    <p id="password" class="password" onclick="copyElementText(this.id)"></p>
                 </div>
-                <div class="popup"  id="pw">
-                    <p id="password-two" onclick="copyElementText(this.id)" ></p>
+                <div class="pw"  id="pw">
+                    <p id="password-two" class="password" onclick="copyElementText(this.id)" ></p>
+                </div>       
+            </div>
+        <form id="form-el" class="form-el">
+            <legend>Choose your password features:</legend>
+                <div class="input-div"id="input-div">
+                    <label for="length">Length </label>
+                     <input class="length-el" id="length-el" type="number" value="4" min="4" max="23" name = "length"/>
+                    <label for="uppercase">Uppercase </label>
+                    <input class="form-check" type="checkbox" id="uppercase" name="uppercase" value="yes"/>
+                    <label for="numbers">Numbers </label>  
+                    <input class="form-check" type="checkbox" id="numbers" name="numbers" value="yes"/>
+                    <label for="symbols">Symbols </label>
+                    <input class="form-check" type="checkbox" id="symbols" name="symbols" value="yes"/>
                 </div>
-                    
-        </div>
-        <form>
-            <div id="form-el">
-                    
-                        <legend>Choose your password features:</legend>
-                            <div id="input-div">
-                                <label for="length">Length :</label>
-                                 <input id="length-el" type="number" value="4" min="4" max="23" name = "length"/>
-                                <label for="uppercase">Uppercase :</label>
-                                <input type="checkbox" id="uppercase" name="uppercase" value="yes"/>
-                                <label for="numbers">Numbers :</label>  
-                                <input type="checkbox" id="numbers" name="numbers" value="yes"/>
-                                <label for="symbols">Symbols :</label>
-                                <input type="checkbox" id="symbols" name="symbols" value="yes"/>
-                            </div>
-             </div> 
         </form>
         
+      </div>  
         <script src="index.js"></script>
     </body>
 </html>

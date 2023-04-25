@@ -7,6 +7,7 @@ const generateBtn = document.getElementById("generate-el");
 let passwordTwo = document.getElementById("password-two")
 let incUppercs = document.getElementById('uppercase')
 
+
 const alpha = "abcdefghijklmnopqrstuvwxyz";
 const beta = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 const numbers = "0123456789";
@@ -35,6 +36,13 @@ const genPassword = (length, characters) => {
   passwordTxt.textContent = password
   passwordTwo.textContent = password2
 };
+
+const resetPassword = ()=>{
+  passwordTxt = ""
+  passwordTwo = ""
+}
+
+document.getElementById('resetBtn').addEventListener(onclick, resetPassword)
 
 function copyElementText(id) {
     var text = document.getElementById(id).innerText;
