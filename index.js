@@ -38,11 +38,12 @@ const genPassword = (length, characters) => {
 };
 
 const resetPassword = ()=>{
-  passwordTxt = ""
-  passwordTwo = ""
+  passwordTxt.textContent = ""
+  passwordTwo.textContent = ""
+  console.log("empty")
 }
 
-document.getElementById('resetBtn').addEventListener(onclick, resetPassword)
+document.getElementById('resetBtn').addEventListener("click", resetPassword)
 
 function copyElementText(id) {
     var text = document.getElementById(id).innerText;
