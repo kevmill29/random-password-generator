@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding:0;
+    overflow-x: hidden;
 }
 body {
     background-color: #1F2937;
@@ -8,8 +9,9 @@ font-family: 'Karla', sans-serif;
  font-family: 'Inter', sans-serif;
  color: white; 
  padding: 0;
-max-width: fit-content;
+max-width:550px;
  margin: 0 auto;
+ position: relative;
 }
 
 
